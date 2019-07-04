@@ -1,0 +1,232 @@
+page-hello-ionic {
+    #outer {
+       
+    }
+
+    #nav {
+        margin-left:0;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 10%;
+    }
+
+    .one { flex-grow: 6;}
+    .two { flex-grow: 1;}
+    .three {flex-grow: 1;}
+    .four {  flex-grow: 1;}
+//end of top nav
+p {
+    color: whitesmoke;
+    text-align: center;letter-spacing: 2px;
+    font-size: 2vh;
+    padding: 0;
+    margin-top: 3%;
+}
+#color1 {
+    background-color: #69A297;
+}
+#color2 {
+    background-color: #B5B1A1;
+}
+#color3 {
+    background-color: rgb(36, 114, 98);
+}
+#color5 {
+    background-color: rgb(29, 216, 216);
+}
+#color4 {
+    background-color: rgb(67, 235, 165);
+}
+#color6 {
+    background-color: rgb(68, 144, 231);
+}
+#color7 {
+    background-color: rgb(197, 62, 231);
+}
+#color8 {
+    background-color: rgb(82, 39, 201);
+}
+#color9{
+    background-color: rgb(204, 38, 93);
+}
+#color10{
+    background-color: rgb(153, 62, 206);
+}
+#color11 {
+    background-color: rgb(214, 12, 130);
+}
+#color12 {
+    background-color: rgb(162, 105, 133);
+}
+#color01 {
+    background-color: rgb(83, 204, 180);
+}
+
+#color02 {
+    background-color: rgb(189, 149, 39);
+}
+
+#color03 {
+    background-color: rgb(25, 132, 139);
+}
+
+#color04 {
+    background-color: rgba(153, 66, 131, 0.945);
+}
+
+#p2 {
+    margin-top: 5%;
+}
+.middle {
+   
+    border: 1px solid black;
+   background-image: url(../../assets/imgs/vincenzo-malagoli-1649936-unsplash.jpg);
+   opacity: 0.9;
+   filter: alpha(opacity=10);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   height: 60vh;
+    width: 100%;
+
+}
+
+.middle2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 55%;
+   
+    justify-content: center;
+    align-items: center;
+   // padding: 10%;
+}
+
+.five {
+         border:  1px solid rgba(216, 201, 201, 0.356); 
+         flex-grow: 1;
+         width: 60%;
+        height: 5vh;
+         border-radius: 2.5px;
+         box-shadow: 10px 10px 18px #614848;
+      
+         text-align: center;
+}
+.six { 
+        border: 1px solid rgba(216, 201, 201, 0.356);
+        flex-grow: 1;
+        width: 40%;
+       text-align: center;
+       color: white;
+       height: 5%;
+        margin-top: 1.5%;
+        border-radius: 2.5px;
+        box-shadow: 10px 10px 16px #423a3a;
+       
+}
+
+.one {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    margin-left: 1%;
+    background-color: white;
+    box-shadow:10px 10px 16px #030303 ;
+    border-radius: 4px;
+}
+    //overlapping
+    .overlapping {
+         box-shadow: 4px -4px 15px #3f3e3e; 
+         background-color: #030303;
+         border-radius: 5px;
+         width: 80%;
+         margin-left: 10%;
+         height: 30%;
+         align-items: center;
+         position: absolute;
+         bottom: -8vh;
+         padding: 1.5%;
+        
+    }
+ 
+    .input1 {
+      letter-spacing: 2px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 5vw;
+        text-shadow: 10px 10px 18px #614848;
+       color: white;
+    }
+
+    .input2{
+        border: 1px solid rgba(216, 201, 201, 0.356);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 5vw;
+        text-shadow: 10px 10px 18px #614848;
+       color: white;
+    }
+
+    .photo {
+        display: flex;
+      
+      height: 50%;
+      
+    }
+
+    #image {
+        width: 25%;
+         
+         border-radius: 80%;
+        background-image: url(../../assets/imgs/austin-kirk-724999-unsplash.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    #name {
+        width: 80%;
+        border: 1px solid black;
+    }
+
+    #location {
+        border: 1px solid pink;
+        width: 100%;
+    }
+ 
+#inputs {
+    padding-left: 1%;
+}
+
+    #textarea {
+        margin-top: 2%;
+        width: auto;
+        height: 50%;
+        padding: 5PX;
+      color: whitesmoke;
+      text-shadow: #030303; 
+    }
+.bottom {
+    
+    display: column;
+    align-items: stretch;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+background-color: #252121;
+}
+
+.bottom1 , .bottom2 {
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+   
+   // margin-left: 5%;
+
+}
+//new css
+
+}
